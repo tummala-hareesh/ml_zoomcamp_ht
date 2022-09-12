@@ -170,6 +170,20 @@ a.min()
 - identity, inverse etc.,
 
 ## 9 Introduction to Pandas
+- DataFrame 
+```py
+df = pd.DataFrame(data, columns=columns)
+```
+- Series
+- Index
+- Reset_index
+- Accessing element
+- Filtering 
+- String operations
+- Summarizing operations 
+- missing values
+- Groupby
+- https://github.com/tummala-hareesh/Introduction-to-Pandas
 
 
 ## 10 Summary
