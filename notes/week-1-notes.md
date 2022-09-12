@@ -163,8 +163,14 @@ a.min()
 ```
 
 ## 8 Linear Algebra Refresher
--
+- vector operations 
+- vector-vector multiplication = Dot product
+- matrix-vector multiplication
+- matrix-matrix multiplication
+- identity, inverse etc.,
 
 ## 9 Introduction to Pandas
+
+
 ## 10 Summary
 ## 11 Homework
