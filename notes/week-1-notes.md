@@ -65,8 +65,46 @@ These notes prepared during week-1 of ML Zoomcamp.
 - What `g` funciton looks like is learnt all along the course.
 
 ## 4 CRISP-DM
+- CRISP-DM 
+    - methodology for organizing ML projects
+    - IBM introduced it
+- From problem understanding to deployment 
+- ML Projects
+    - Understand the problem 
+    - collect the data 
+    - Train the model 
+    - Use it 
+- 6 steps of CRISP-DM 
+    - 1. Business understanding 
+        - Define the goal 
+            - REduce the amount of spam messages 
+        - Define measure 
+            - Reduce spam messages by **50%**
+    - 2. Data Understanding 
+        - Identify data sources 
+            - Is it reliable?
+            - Are they good enough ?
+            - dataset large enough ?
+        - Influence the goal after data understanding
+    - 3. Data Preparing 
+        - Tranform the data so that it can be put into <ML algorithm>
+        - Clean the data -> Build the pipeline -> convert into tabular form 
+    - 4. Modeling 
+        - Which model to choose?
+            - Logistic vs Decision tree vs Neural netowrk vs others? 
+        - Go back to add new feature or fix data issues
+    - 5. Evaluation (go back to #1.)
+        - Measure how well the model sovles the business problem 
+            - Have we reached the goal?
+            - do our metrics improve?
+        - Go back and adjust the goal
+    - 6. Deployment 
+        - Deploy the model and evaluate it! 
+        - Evaluate on 5% of users and roll out to rest
+        - Ensuring the quality and maintainability
 
 ## 5 The Modelling Step (Model Selection Process)
+
 ## 6 Setting up the Environment
 ## 7 Introduction to NumPy
 ## 8 Linear Algebra Refresher
