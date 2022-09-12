@@ -104,6 +104,20 @@ These notes prepared during week-1 of ML Zoomcamp.
         - Ensuring the quality and maintainability
 
 ## 5 The Modelling Step (Model Selection Process)
+- `Which model to choose?`
+    - Logistic regression 
+    - Decisoin tree
+    - Neural network
+    - others? 
+- Selecting the best model
+    - Test dataset - 20%
+    - Train dataset - 80%
+    - Validation dataset - x% of 80%
+- Multiple comparision problems 
+    - 20% test data might not have all possible sub-sets of data
+- 6 Steps process for model selection 
+    - Split -> Train -> Validate -> Select the best model -> Apply to Test data 
+    - validation data shouldn't be thrown away      
 
 ## 6 Setting up the Environment
 ## 7 Introduction to NumPy
