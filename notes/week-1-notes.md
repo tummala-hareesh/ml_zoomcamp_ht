@@ -44,9 +44,28 @@ These notes prepared during week-1 of ML Zoomcamp.
         - Predictions %
         - Final outcome (decision) - >=0.5
 
-
 ## 3 Supervised Machine Learning
+- Features and Target variables present 
+    - E.g: Spam or NOT Spam 
+- Feature matrix (X)
+- Target matrix (Y)
+- ML (g - function)
+- Goal of ML:
+    - `g(X) ~ Y`
+    - Predict as close as possible (can't be exact)
+- Types of Supervised ML 
+    - `Regression` - predict numbers 
+        - E.g: predict loan age, house price etc., 
+    - `Classification` - output category
+        - E.g: Binary - car or not car, spam or not spam
+        - E.g: Multiclass - cat, dog, car
+    - `Ranking` 
+        - rank something - recommendor systems 
+        - rank items 
+- What `g` funciton looks like is learnt all along the course.
+
 ## 4 CRISP-DM
+
 ## 5 The Modelling Step (Model Selection Process)
 ## 6 Setting up the Environment
 ## 7 Introduction to NumPy
