@@ -1,5 +1,5 @@
 # Machine Learning Zoomcamp 
-This repo has been created while attending **[ML ZoomCamp](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp)** organized by [Alexey Grigorev](https://linkedin.com/in/agrigorev)) and team. This ZoomCamp is spread across 14 modules for 4 months.
+This repo has been created while attending **[ML ZoomCamp](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp)** organized by [Alexey Grigorev](https://linkedin.com/in/agrigorev)) and team. This ZoomCamp is spread across 14 modules for upto 4 months.
 
 # Table of Contents
 1. [Open Ended Learning](#targeted-open-learning)
@@ -18,6 +18,8 @@ Going forward, I'm going to update this README.md on a weekly basis with an **Ov
 ## Week-1
 - Overview: Introduction to Machine Learning 
 - Notes: [Week-1 Notes](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-1-notes.md)
-- Outcomes: 
-- Media: 
+- Outcomes: ML termilogy, rule vs ML, supervisedML, CRISP-DM, Model selection steps, Review of linear algebra and env setup
+- Media: [Week-1 Post](https://www.linkedin.com/posts/tummala-hareesh_github-tummala-hareeshmlzoomcampht-activity-6975109893066285057-GI0V?utm_source=share&utm_medium=member_desktop)
+
+
 
