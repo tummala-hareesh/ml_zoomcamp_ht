@@ -187,4 +187,13 @@ df = pd.DataFrame(data, columns=columns)
 
 
 ## 10 Summary
+- ML terminology: Features, Target, Model 
+- Rules vs ML 
+- Supervised ML - g(X) = Y 
+- CRISP-DM steps
+- Model Selection Steps
+- Environment setup - numpy, pandas, anacondas, AWS 
+- Review of Linear Algebra
+
+
 ## 11 Homework
