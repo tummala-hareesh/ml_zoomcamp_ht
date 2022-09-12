@@ -27,7 +27,22 @@ These notes prepared during week-1 of ML Zoomcamp.
 - Feature + Model = Predictions 
 
 ## 2 ML vs Rule-Based Systems
-- 
+- E.g: Email spams
+- Build a Classifier that filters SPAM emails
+    - From a sender - promotions@online.ca
+    - From a domain - online.com 
+    - Keywords - funding, money, taxes, etc., 
+- `Rule based systems` - limitation - more code - keywords to filter spams 
+- `ML way to solve the problem`
+    - Get data
+        - Use **SPAM** folder to filter spam emails 
+    - Define and calculate features
+        - Example features: length of title, body, sender, sender domain, etc.,
+        - Features as a list - [1, 1, 0, 0, 1, 1]
+        - Target - 1
+    - Train and use model 
+        - Predictions %
+        - Final outcome (decision) - >=0.5
 
 
 ## 3 Supervised Machine Learning
