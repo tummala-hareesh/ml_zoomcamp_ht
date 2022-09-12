@@ -120,8 +120,51 @@ These notes prepared during week-1 of ML Zoomcamp.
     - validation data shouldn't be thrown away      
 
 ## 6 Setting up the Environment
+
+
+
 ## 7 Introduction to NumPy
+- Import numpy 
+```py
+import numpy as np
+```
+- Create array 
+```py
+np.zeros(10)
+np.ones(10)
+np.full(10, 2.5)
+np.array([1, 2,3,4,6,7])
+np.linspace(0, 100, 11)
+```
+- Multidim arrays
+```py
+np.zeros((5,2))
+np.array([
+    [1, 2,3,4],
+    [123, 34,7],
+    [a, df, g]
+])
+```
+- Randomly generated arrays
+```py
+np.random.seed(10) # to fix the randomly genearted numbers
+np.random.rand(5,2)
+np.random.randn(5,2) # normalized random array
+np.random.randint(low=0, high=100, size=(5,2))
+```
+- Element-wise operations
+- Comparision opeartions 
+- Summarizing operations
+```py
+a.std()
+a.max()
+a.min()
+...
+```
+
 ## 8 Linear Algebra Refresher
+-
+
 ## 9 Introduction to Pandas
 ## 10 Summary
 ## 11 Homework
