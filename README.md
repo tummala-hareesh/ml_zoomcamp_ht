@@ -5,7 +5,7 @@ This repo has been created while attending **[ML ZoomCamp](https://github.com/al
 1. [Open Ended Learning](#targeted-open-learning)
 2. [Important Links](#important-links)
 3. [Week-1 notes](#week-1)
-
+4. [Week-2 notes](#week-2)
 
 ## Targeted Open Learning
 Going forward, I'm going to update this README.md on a weekly basis with an **Overview** for the week, **Notes** prepared during the week, **Outcomes** from the learning process, and, maybe, social **Media** posts that I write about the weekly outcome. Good Luck and Happy Learning! 
@@ -16,10 +16,15 @@ Going forward, I'm going to update this README.md on a weekly basis with an **Ov
 
 
 ## Week-1
-- Overview: Introduction to Machine Learning 
+- Topic: Introduction to Machine Learning 
 - Notes: [Week-1 Notes](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-1-notes.md)
 - Outcomes: ML termilogy, rule vs ML, supervisedML, CRISP-DM, Model selection steps, Review of linear algebra and env setup
 - Media: [Week-1 Post](https://www.linkedin.com/posts/tummala-hareesh_github-tummala-hareeshmlzoomcampht-activity-6975109893066285057-GI0V?utm_source=share&utm_medium=member_desktop)
 
 
+## Week-2
+- Topic: Introduction to Machine Learning 
+- Notes: [Week-2 Notes](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-2-notes.md)
+- Outcomes: 
+- Media: [Week-2 Post]()
 
