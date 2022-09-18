@@ -19,6 +19,19 @@ These notes prepared during week-2 of ML Zoomcamp.
 - Standardize categorical features  
 
 # 3 Exploratory data analysis
+- How data the looks like?
+- Get a feeling about the data
+- All MSRP = distribution using `histogram`
+    - Long tail = `- Not good for ML`
+    - `Solution` - Apply **log**
+        - log will scale larger values 
+        - issue is that log(0) is undefined = Add `+1` to all data
+            - `log1p` - shortcut to add 1 and takes log
+- MSRP distribution of cars MSRP < 1000000
+- log-MSRP now looks more like `Normal Distribution`
+- ML models do better with normal distribution 
+- Check if there are missing values in the dataset.
+
 
 # 4 Setting up the validation framework
 # 5 Linear regression
