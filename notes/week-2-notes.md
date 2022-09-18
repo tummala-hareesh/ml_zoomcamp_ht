@@ -14,6 +14,9 @@ These notes prepared during week-2 of ML Zoomcamp.
     - Using the model 
 
 # 2 Data preparation
+- [Notebook](../ipynb/02_car_price_prediction.ipynb)
+- Standardize column names
+- Standardize categorical features  
 
 # 3 Exploratory data analysis
 
