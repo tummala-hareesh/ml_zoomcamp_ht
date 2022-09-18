@@ -2,7 +2,16 @@
 These notes prepared during week-2 of ML Zoomcamp. 
 
 # 1 Car price prediction project
-
+- Develop a model to help user predict car price. 
+- Dataset from Kaggle - [Car Features and MSRP](https://www.kaggle.com/datasets/CooperUnion/cardataset)
+- Project Plan 
+    - Preapre data and do EDA 
+    - Use linear regression for predicting price
+    - Use the internal of linear regression 
+    - Evaluting the model with RSME 
+    - Feature Engineering 
+    - Regularization 
+    - Using the model 
 
 # 2 Data preparation
 
