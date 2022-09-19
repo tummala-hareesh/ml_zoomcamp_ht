@@ -76,9 +76,14 @@ def train_linear_regression(X, y):
 
 
 # 9 Root mean squared error
-
+- RSME = root mean squared error 
+- g(xi) = prediction for xi
+- yi = actual value for xi
+- RSME = SQRT((SUM(g(xi) - yi)^2)/n)
 
 # 10 Using RMSE on validation data
+
+
 # 11 Feature engineering
 # 12 Categorical variables
 # 13 Regularization
