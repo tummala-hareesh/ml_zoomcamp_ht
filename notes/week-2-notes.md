@@ -113,7 +113,14 @@ def train_linear_regression(X, y):
 
 
 # 14 Tuning the model
+- Try to find the best value of r (regulization parameter) for our model
+- For r=0.0 regulization the score is bad 
+- For r>1.0, the score again worsens
+
 # 15 Using the model
+
 # 16 Car price prediction project summary
+
 # 17 Explore more
+
 # 18 Homework
