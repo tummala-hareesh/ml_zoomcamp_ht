@@ -34,6 +34,12 @@ These notes prepared during week-2 of ML Zoomcamp.
 
 
 # 4 Setting up the validation framework
+- For validating model, split dataset into test-val-train
+- Split using length of dataframe ; make sure not to omit any records
+- Sequential splits should not be used; Shuffle the dataset first before splitting sequentially
+- random seed to reproduce the split using `np.random.shuffle()`
+- check for different index in the split dataframe
+
 # 5 Linear regression
 # 6 Linear regression: vector form
 # 7 Training linear regression: Normal equation
