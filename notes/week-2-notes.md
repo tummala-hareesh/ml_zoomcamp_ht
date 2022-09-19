@@ -82,7 +82,9 @@ def train_linear_regression(X, y):
 - RSME = SQRT((SUM(g(xi) - yi)^2)/n)
 
 # 10 Using RMSE on validation data
-
+- Train the model using `training dataset`
+- apply predictions on `validation dataset`
+- estimate `rsme` on validation datawset
 
 # 11 Feature engineering
 # 12 Categorical variables
