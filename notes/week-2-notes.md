@@ -41,8 +41,33 @@ These notes prepared during week-2 of ML Zoomcamp.
 - check for different index in the split dataframe
 
 # 5 Linear regression
+- Solving regression problems
+- `g(X) ~ y`
+- [Youtube video](https://www.youtube.com/watch?v=Dn1eTQLsOdA&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=16)
+
 # 6 Linear regression: vector form
+- `linear regression = w0 + dot(xi + w)`
+- `linear_regression = X.dot(w_new)`
+- [Youtube video - vector form](https://www.youtube.com/watch?v=YkyevnYyAww&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=17)
+
+
 # 7 Training linear regression: Normal equation
+- For some an exact solution mayn't exist, so, a generalized solution is to find approximate solution.
+-  [Approx. form](https://www.youtube.com/watch?v=hx6nak-Y11g&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=18)
+```py
+
+def train_linear_regression(X, y):
+    ones = np.ones(X.shape[0])
+    X = np.column_stack([ones, X])
+    
+    XTX = X.T.dot(X)
+    XTX_inv = np.linalg.inv(XTX)
+    w_full = XTX_inv.dot(X.T).dot(y)
+    
+    return w_full[0], w_full[1:]
+
+```
+
 # 8 Baseline model for car price prediction project
 # 9 Root mean squared error
 # 10 Using RMSE on validation data
