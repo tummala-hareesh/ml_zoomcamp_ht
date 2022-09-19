@@ -91,10 +91,16 @@ def train_linear_regression(X, y):
 - Re-train the model and check rsme
 - There is a sifnificant improvement in rsme. 
 - So, MSRP depends on age of the car.
-- 
 
 # 12 Categorical variables
-- 
+- categorical variables = strings = object types 
+- `number of doors` is categorical 
+- Use categorical variables for ML model 
+- Typical way of encoding 
+    - New Binary columns for each value in main column 
+- No. of doors doesn't improve the model by much 
+- `Make` of the car improves the model by 1%
+- Adding more (all) categorical variables makes the model worse. 
 
 # 13 Regularization
 # 14 Tuning the model
