@@ -69,7 +69,15 @@ def train_linear_regression(X, y):
 ```
 
 # 8 Baseline model for car price prediction project
+- Filter numerical columns from dataset
+- Build model using those columns 
+- Comparing results using histogram 
+- Metric needed to estimate if the model is performing better or not?
+
+
 # 9 Root mean squared error
+
+
 # 10 Using RMSE on validation data
 # 11 Feature engineering
 # 12 Categorical variables
