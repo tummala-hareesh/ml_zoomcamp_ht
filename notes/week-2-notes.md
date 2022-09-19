@@ -118,9 +118,33 @@ def train_linear_regression(X, y):
 - For r>1.0, the score again worsens
 
 # 15 Using the model
+- combine `df_train` and `df_val` into one for final training and model creation with parameters identified
+- combine `y_train` and `y_val` to get a final y
+
 
 # 16 Car price prediction project summary
+- Porject for predicting price of a car
+- Download dataset from Kaggle 
+- Cleand the dataset
+- EDA to identify MSRP long tail
+- Applied log tranform to make it normal distributed
+- Split dataset 
+- linear regression implementation 
+- Expanded the LR to a generalized form 
+- Machine learning is not magic - Just a formulae
+- Baseline model using numerical features
+- Metric to evaluate model = RSME 
+- Validation the model using val dataset
+- Feature engineering - categorical features into numerical binary features = 1 Hot Encoding
+- RMSE is huge after including cat variables 
+- Numerical stability due to feature engineering 
+- Regularizaiton to stabilize the model 
+- Tune the parameters to arrive at a final model 
+- Finally, test the model on test dataset
+
 
 # 17 Explore more
+- What happens when we include top 10 features?
+
 
 # 18 Homework
