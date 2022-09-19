@@ -87,7 +87,15 @@ def train_linear_regression(X, y):
 - estimate `rsme` on validation datawset
 
 # 11 Feature engineering
+- Create a new columns called `age` using `year` of car manufactured
+- Re-train the model and check rsme
+- There is a sifnificant improvement in rsme. 
+- So, MSRP depends on age of the car.
+- 
+
 # 12 Categorical variables
+- 
+
 # 13 Regularization
 # 14 Tuning the model
 # 15 Using the model
