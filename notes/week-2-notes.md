@@ -103,6 +103,15 @@ def train_linear_regression(X, y):
 - Adding more (all) categorical variables makes the model worse. 
 
 # 13 Regularization
+- Why is RSME so high after adding cat variables?
+    - When inverse doesn't exists
+    - Data is not super clean 
+    - Add a tiny number to data to get solution - non-singular matrix
+    - Larger the tiny  number added to diagonal = more control we get
+- `5%` improvement - by controlling the value
+- regularization r is a parameter ot the model 
+
+
 # 14 Tuning the model
 # 15 Using the model
 # 16 Car price prediction project summary
