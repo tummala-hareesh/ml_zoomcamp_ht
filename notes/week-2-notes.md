@@ -144,7 +144,8 @@ def train_linear_regression(X, y):
 
 
 # 17 Explore more
-- What happens when we include top 10 features?
+- What happens when we include top 10 features? Improvment in performance of the model by 2%
 
 
 # 18 Homework
+- [Notebook to homework](./../ipynb/02_homework.ipynb)
