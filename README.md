@@ -23,8 +23,16 @@ Going forward, I'm going to update this README.md on a weekly basis with an **Ov
 
 
 ## Week-2
-- Topic: Introduction to Machine Learning 
+- Topic: Machine Learning for Regression  
 - Notes: [Week-2 Notes](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-2-notes.md)
+- Outcomes: Linear Regression, Car Price Prediction model, House Price Prediction model, Regularization, Shuffle data
+- Media: [Week-2 Post](https://www.linkedin.com/posts/tummala-hareesh_github-tummala-hareeshmlzoomcampht-activity-6979876190312439808-DlwX?utm_source=share&utm_medium=member_desktop)
+
+
+## Week-3
+- Topic: Machine Learning for Classification
+- Notes: [Week-2 Notes](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-3-notes.md)
 - Outcomes: 
-- Media: [Week-2 Post]()
+- Media: [Week-3 Post]()
+
 
