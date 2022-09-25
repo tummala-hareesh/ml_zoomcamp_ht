@@ -26,9 +26,17 @@ These notes prepared during week-3 of ML Zoomcamp.
 - change `churn` feature into binary variable.
 
 # 3 Setting up the validation framework
-
+- Create test-validation-train datasets using sklearn
+- Load train_test_split function from sklearn 
+- Use `?` after train_test_split to get documentation details about the function/method 
+- Getting full_train , test datasets is strainghtfoward with the use of test_size=0.2
+- But, for train, val split on full_train, we should use test_size=0.25 because 
+    - 20%/80% = 25%
+- Create y_train, y_val, and y_test lists
+- Delete Target variables (churn) from df_train, df_val and df_test
 
 # 4 EDA
+- 
 
 
 # 5 Feature importance: Churn rate and risk ratio
