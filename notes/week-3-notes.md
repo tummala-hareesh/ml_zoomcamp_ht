@@ -43,8 +43,38 @@ These notes prepared during week-3 of ML Zoomcamp.
     - Churn Rate ~ 26%
 - Look at numerical and categorical variables 
 
-
 # 5 Feature importance: Churn rate and risk ratio
+- Churn Rate - Global vs Male vs Female ~ similar 
+- Churn Rate - Global vs no partner vs partner - not similar
+    - 5% more for no partners wrt global
+    - 6% less for partners wrt global  
+- Above EDA details gives us an idea about `feature importance`
+- Difference = Global - Group 
+    - Difference<0 = More likely to Churn
+    - Difference>0 = Less Likely to Churn 
+- Instead of difference, we can look at division  = `Risk Rate`
+    - Risk Rate = Group / Global 
+    - RR > 1; Customer higher risk to Churn 
+    - RR < 1; Customer at lower risk to churn
+- Instead of doing above for each feature, we use SQL to create new table of churn rates
+```py
+SELECT 
+    gender, 
+    AVG(churn),
+    AVG(churn) - global_churn AS diff,
+    AVG(churn) / global_churn AS risk 
+FROM 
+    data
+GROUP BY 
+    gender;
+```
+- Or using pandas 
+```py
+df.groupby('gender').churn.mean()
+```
+- We now know if the feature is important to predict churn or not. 
+- But, if we have ranks for each feature to identify importance (order of importance), then that will be helpful.
+
 
 # 6 Feature importance: Mutual information
 
