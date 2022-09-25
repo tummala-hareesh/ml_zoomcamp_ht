@@ -1,7 +1,21 @@
 # Week-3
 These notes prepared during week-3 of ML Zoomcamp. 
 
+
 # 1 Churn prediction project
+- Telecom company - customers/clients
+- Happy/Unhappy customers 
+- Clients who want to leave the company - Move to competitor
+- Assign score from 0 to 1, to identify customers who churn
+- Promotinal offers to customers who plan to churn 
+- No discounts to customers who stay 
+- Way to approach this problem using ML ~ `Binary Classification`
+    - g(xi) ~ yi
+    - i = customer
+    - yi  = [0,1]; No churn - Churn
+- Output of the model = score between 0-1 - `Likelihood of Churn`
+- Historical data of customers to build ML binary classification model
+- [Kaggle dataset = Telco-Customer-Churn](https://www.kaggle.com/c/customer-churn-prediction-2020)
 
 
 # 2 Data preparation
