@@ -19,7 +19,11 @@ These notes prepared during week-3 of ML Zoomcamp.
 
 
 # 2 Data preparation
-
+- Download data; use pandas to read the data; and pre-processing 
+- `wget` to download data
+- Standardize column names and categorical feature data
+- Change wrong object features into float values 
+- change `churn` feature into binary variable.
 
 # 3 Setting up the validation framework
 
