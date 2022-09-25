@@ -77,8 +77,18 @@ df.groupby('gender').churn.mean()
 
 
 # 6 Feature importance: Mutual information
+- Way to measure importance of categorical features. 
+- `Mutual information` - concept from information theory
+    - how much we learn about one variable if we know value of another
+- sklearn has `mutual_info_score` package for us to use
+- 'contract' is most important and 'gender' is least important
+- High MI score = important - good indicators for ML models
+- Models looks for these patterns 
+- M
 
 # 7 Feature importance: Correlation
+- Measuring the Importance of numerical features
+- 
 
 # 8 One-hot encoding
 
