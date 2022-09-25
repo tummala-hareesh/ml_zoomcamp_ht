@@ -36,7 +36,12 @@ These notes prepared during week-3 of ML Zoomcamp.
 - Delete Target variables (churn) from df_train, df_val and df_test
 
 # 4 EDA
-- 
+- Look for missing values and fix them 
+- Look at target variable - `churn`
+    - Use `df.value_counts(normalize=True)` to get % data
+    - Churn Rate is defined as `#of ones/n` for the feature
+    - Churn Rate ~ 26%
+- Look at numerical and categorical variables 
 
 
 # 5 Feature importance: Churn rate and risk ratio
