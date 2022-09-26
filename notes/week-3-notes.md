@@ -92,10 +92,13 @@ df.groupby('gender').churn.mean()
 - Monthly Charges - positive correlation 
 
 # 8 One-hot encoding
-- 
+- Feature variables into individual binary variables 
+- feature_extraction - DictVectorizer
 
 
 # 9 Logistic regression
+
+
 
 # 10 Training logistic regression with Scikit-Learn
 
