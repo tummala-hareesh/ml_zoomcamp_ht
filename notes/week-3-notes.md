@@ -120,9 +120,21 @@ df.groupby('gender').churn.mean()
 
 
 # 12 Using the model
+- full train dataset
+- test datasets 
+- accuracy = 81%
+- Testing it on 1 customer and comparing aginst y_test
+
 
 # 13 Summary
+- Feature importance - risk, mutual information, correlation 
+- One-hot encoding using `DictVectorizer`
+- LogisticRegression 
+- Ouput of log reg - probability 
+- Interpretation of weights is similar to linear regression 
+
 
 # 14 Explore more
+- 
 
 # 15 Homework
