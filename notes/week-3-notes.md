@@ -135,6 +135,15 @@ df.groupby('gender').churn.mean()
 
 
 # 14 Explore more
-- 
+- Exlude least useful features 
+- Instead of Linear Regression (not regularized), Ridge Regression (regularized)
+    - Find the best regualization parameter of Ridge
+- Other ways of OneHotEncoding
+- Check how to use StandardScaler 
+
+## Additional Projects
+- Lead scoring - https://www.kaggle.com/ashydv/leads-dataset
+- Default prediction - https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients
+
 
 # 15 Homework
