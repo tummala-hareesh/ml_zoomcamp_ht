@@ -84,13 +84,16 @@ df.groupby('gender').churn.mean()
 - 'contract' is most important and 'gender' is least important
 - High MI score = important - good indicators for ML models
 - Models looks for these patterns 
-- M
 
 # 7 Feature importance: Correlation
 - Measuring the Importance of numerical features
-- 
+- `Correlation coefficient` - measures the degree of dependency between 2 variables. 
+- Tenure - negative correlation 
+- Monthly Charges - positive correlation 
 
 # 8 One-hot encoding
+- 
+
 
 # 9 Logistic regression
 
