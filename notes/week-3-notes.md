@@ -115,7 +115,8 @@ df.groupby('gender').churn.mean()
 - Accuracy measurements
 
 # 11 Model interpretation
-- 
+- Look at the coefficients 
+- Train a smaller model with fewer features 
 
 
 # 12 Using the model
