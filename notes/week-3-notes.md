@@ -135,7 +135,7 @@ df.groupby('gender').churn.mean()
 
 
 # 14 Explore more
-- Exlude least useful features 
+- Exclude least useful features 
 - Instead of Linear Regression (not regularized), Ridge Regression (regularized)
     - Find the best regualization parameter of Ridge
 - Other ways of OneHotEncoding
@@ -147,3 +147,4 @@ df.groupby('gender').churn.mean()
 
 
 # 15 Homework
+- [Notebook to homework](./../ipynb/03_homework.ipynb)
