@@ -7,6 +7,7 @@ This repo has been created while attending **[ML ZoomCamp](https://github.com/al
 3. [Week-1 notes](#week-1)
 4. [Week-2 notes](#week-2)
 5. [Week-3 notes](#week-3)
+6. [Week-4 notes](#week-4)
 
 ## Targeted Open Learning
 Going forward, I'm going to update this README.md on a weekly basis with an **Overview** for the week, **Notes** prepared during the week, **Outcomes** from the learning process, and, maybe, social **Media** posts that I write about the weekly outcome. Good Luck and Happy Learning! 
@@ -32,6 +33,12 @@ Going forward, I'm going to update this README.md on a weekly basis with an **Ov
 
 ## Week-3
 - Topic: Machine Learning for Classification
-- Notes: [Week-2 Notes](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-3-notes.md)
+- Notes: [Week-3 Notes](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-3-notes.md)
 - Outcomes: Binary Classification, Feature Importance, OneHot Encoding, Ouput of log reg - probability
 - Media: [Week-3 Post](https://www.linkedin.com/posts/tummala-hareesh_github-tummala-hareeshmlzoomcampht-activity-6980201029925560320-p_WV?utm_source=share&utm_medium=member_desktop)
+
+## Week-4
+- Topic: 
+- Notes: [Week-4 Notes](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-4-notes.md)
+- Outcomes: 
+- Media: [Week-4 Post]()
