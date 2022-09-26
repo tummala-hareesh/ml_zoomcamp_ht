@@ -107,8 +107,16 @@ df.groupby('gender').churn.mean()
 - Linear vs Logistic regression formulations 
 
 # 10 Training logistic regression with Scikit-Learn
+- Train a model using scikit-learn
+- apply to validation dataset
+- Calculate accuracy 
+- Hard preditions using `predict`
+- Probability predictions uisng `predict_probab`
+- Accuracy measurements
 
 # 11 Model interpretation
+- 
+
 
 # 12 Using the model
 
