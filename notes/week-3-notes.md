@@ -97,8 +97,14 @@ df.groupby('gender').churn.mean()
 
 
 # 9 Logistic regression
-
-
+- Binary Classification ~ [0,1]
+- g(xi) ~ yi
+- SIGMOD function 
+    - ```py
+        def sigmod(z):
+            return 1/(1+np.exp(-z))
+    ``` 
+- Linear vs Logistic regression formulations 
 
 # 10 Training logistic regression with Scikit-Learn
 
