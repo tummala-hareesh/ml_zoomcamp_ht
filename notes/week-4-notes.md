@@ -16,6 +16,17 @@ These notes prepared during week-4 of ML Zoomcamp.
     - K-fold Cross Validation 
 
 # 2 Accuracy and dummy model
+- Evalute the model on different thresholds 
+- Check the accuracy of dummy baselines
+
+- `Accuracy` tells us about fraction of correct predictions. 
+- `Accuracy` = No. of correct predictions / No. of total predictions made
+- Scikit learn has a metric called `accuracy_score` which does exactly the same as above 
+- `Logistic  Regression` optimizes and gives the threshold that gives best accuracy , here it's 0.5
+- `Accuracy` doesn't completely give us informatino about Churning and Non-churning 
+    - Model will be correct only for non-churning customers
+    - For churning ones, it becomes wrong predictions
+    - `Class imbalance`  = No. of non-churing customers > No. of chruning customers 
 
 # 3 Confusion table
 
