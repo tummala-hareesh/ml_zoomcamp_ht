@@ -51,8 +51,20 @@ These notes prepared during week-4 of ML Zoomcamp.
 
 
 # 5 ROC Curves
+- ROC - Receiver Operator Characteristicsm
+- WW-2 Radar detectors
+- `FPR` = False Positive Rate
+- `TPR` = True Positive Rate
+- ROC curve looks at all the possible thresholds (FPR Recall)
+- randome model 
+- Ideal model 
+- TPR vs FPR - model shouldn't go below random baseline
+- Can use scikit-learn to plot ROC curve
+
 
 # 6 ROC AUC
+- 
+
 
 # 7 Cross-Validation
 
