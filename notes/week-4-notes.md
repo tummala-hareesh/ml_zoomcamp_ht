@@ -29,8 +29,24 @@ These notes prepared during week-4 of ML Zoomcamp.
     - `Class imbalance`  = No. of non-churing customers > No. of chruning customers 
 
 # 3 Confusion table
+- Different way of evaluting the model that will not be impacted by `class imbalance`
+- g(xi) ~ predict (churn if >= t else no churn)
+- If customer churned, send promo email, else none 
+- For Prediction = NO Churn, **(NEGATIVE)**
+    - Customer didn't churn (correct) - `TRUE NEGATIVE`
+    - customer did churn (not correct) - `FALSE NEGATIVE`
+    - Negative class
+- For Predciction = churn, **(POSITIVE)**
+    - Customer didn't churn (not correct) - `FALSE POSITIVE`
+    - customer did churn (correct) - `TRUE POSITIVE`
+    - Postive class
+- Python implementation of TP, TN, FP, FN for confusion table
+- % of prediction in confutoin matrix
+- Accuracy = TP + TN 
 
 # 4 Precision and Recall
+
+
 
 # 5 ROC Curves
 
