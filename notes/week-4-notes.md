@@ -45,7 +45,9 @@ These notes prepared during week-4 of ML Zoomcamp.
 - Accuracy = TP + TN 
 
 # 4 Precision and Recall
-
+- Precision - Fraction of positive predictions that are correct? 
+- Recall - Fraction of churning users that we identified correctly
+- Accuracy can be misleading especially when class imbalances are there
 
 
 # 5 ROC Curves
