@@ -8,6 +8,7 @@ This repo has been created while attending **[ML ZoomCamp](https://github.com/al
 4. [Week-2 learning](#week-2)
 5. [Week-3 learning](#week-3)
 6. [Week-4 learning](#week-4)
+7. [Week-5 learning](#week-5)
 
 ## Targeted Open Learning
 Going forward, I'm going to update this README.md on a weekly basis with an **Overview** for the week, **Notes** prepared during the week, **Outcomes** from the learning process, and, maybe, social **Media** posts that I write about the weekly outcome. Good Luck and Happy Learning! 
@@ -41,4 +42,10 @@ Going forward, I'm going to update this README.md on a weekly basis with an **Ov
 - Topic: Evaluation Metrics for Classification
 - Notes: [Week-4 Notes](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-4-notes.md)
 - Outcomes: Metrics for Binary Classification, Accuracy, Class Imbalance in Binary classification problems, Precision, Recall, ROC, ROC-AUC, K-Fold CV, F1-score - other metrics 
-- Media: [Week-4 Post]()
+- Media: [Week-4 Post](https://www.linkedin.com/posts/tummala-hareesh_github-tummala-hareeshmlzoomcampht-activity-6982697429980643328-8Law?utm_source=share&utm_medium=member_desktop)
+
+## Week-5
+- Topic: 
+- Notes: [Week-5 Notes](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-5-notes.md)
+- Outcomes:  
+- Media: [Week-5 Post]()
