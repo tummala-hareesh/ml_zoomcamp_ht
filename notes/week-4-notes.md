@@ -63,7 +63,16 @@ These notes prepared during week-4 of ML Zoomcamp.
 
 
 # 6 ROC AUC
-- 
+- Useful metric for binary classification 
+- AUC = Area Under the ROC Curve
+- ROC curve -  close of ideal point (1.0)
+- Another way to quantiy above is area under the curve 
+- AUC > Great performing model 
+- For ideal curve, AUC =1.0
+- For random curve, AUC =0.5
+- Our model, AUC > 0.5 and <= 1.0
+- sklearn - `auc` - area under any curve; `roc_auc_score` - computes area under the curve from y_val, y_pred
+- How well AUC seperates negative from positive examples. 
 
 
 # 7 Cross-Validation
