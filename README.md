@@ -4,10 +4,10 @@ This repo has been created while attending **[ML ZoomCamp](https://github.com/al
 # Table of Contents
 1. [Open Ended Learning](#targeted-open-learning)
 2. [Important Links](#important-links)
-3. [Week-1 notes](#week-1)
-4. [Week-2 notes](#week-2)
-5. [Week-3 notes](#week-3)
-6. [Week-4 notes](#week-4)
+3. [Week-1 learning](#week-1)
+4. [Week-2 learning](#week-2)
+5. [Week-3 learning](#week-3)
+6. [Week-4 learning](#week-4)
 
 ## Targeted Open Learning
 Going forward, I'm going to update this README.md on a weekly basis with an **Overview** for the week, **Notes** prepared during the week, **Outcomes** from the learning process, and, maybe, social **Media** posts that I write about the weekly outcome. Good Luck and Happy Learning! 
