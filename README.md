@@ -38,7 +38,7 @@ Going forward, I'm going to update this README.md on a weekly basis with an **Ov
 - Media: [Week-3 Post](https://www.linkedin.com/posts/tummala-hareesh_github-tummala-hareeshmlzoomcampht-activity-6980201029925560320-p_WV?utm_source=share&utm_medium=member_desktop)
 
 ## Week-4
-- Topic: 
+- Topic: Evaluation Metrics for Classification
 - Notes: [Week-4 Notes](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-4-notes.md)
 - Outcomes: Metrics for Binary Classification, Accuracy, Class Imbalance in Binary classification problems, Precision, Recall, ROC, ROC-AUC, K-Fold CV, F1-score - other metrics 
 - Media: [Week-4 Post]()
