@@ -76,9 +76,24 @@ These notes prepared during week-4 of ML Zoomcamp.
 
 
 # 7 Cross-Validation
+- Parameter tuning for selecting best parameter of our model 
+- Full train and test - split into parts (k=3) - train and evaluate model - compute mean and std
+- `pip install tqdm` to track progress of kfold cross validation
+- In `Logistic Regression`, C is regularization parameter 
 
 # 8 Summary
+- Metric - a single number that describes performance a model 
+- Accuracy - fraction of correct answers, metric can be misleading sometimes
+- Precision and Recall - are less misleading when we have class imbalance
+- ROC curve - a way to evalute the performance at all thresholds; works with class imbalance too
+- K-fold CV - more reliable estimate for performance (mean + std); parameter tuning 
 
 # 9 Explore more
+- F! score 
+- Evalute prevision and recall at different thresholds, plot P vs R 
+- AUC 
+- `Other projects`
+    - Calcuate the metrics for datasets from the previsou week 
 
 # 10 Homework
+- [Link to Notebook](./../ipynb/04_homework.ipynb)
