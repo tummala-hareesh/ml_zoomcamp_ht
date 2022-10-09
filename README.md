@@ -45,7 +45,7 @@ Going forward, I'm going to update this README.md on a weekly basis with an **Ov
 - Media: [Week-4 Post](https://www.linkedin.com/posts/tummala-hareesh_github-tummala-hareeshmlzoomcampht-activity-6982697429980643328-8Law?utm_source=share&utm_medium=member_desktop)
 
 ## Week-5
-- Topic: 
+- Topic: Deploying Machine Learning Models
 - Notes: [Week-5 Notes](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-5-notes.md)
-- Outcomes:  
+- Outcomes:   
 - Media: [Week-5 Post]()
