@@ -40,6 +40,36 @@ These notes prepared during week-5 of ML Zoomcamp.
 
 
 # 4 Serving the churn model with Flask
+- Predict python script into a webservice
+- Churn Service (Model) /predict -> Marketing Service (send customer) -> Returns auc
+- `POST` method to send customer information for churn app
+- customer info. will be sent in JSON format 
+- Reponse will also be JSON 
+- Important:    
+    - We should inform flask that json is being sent as input
+    - For inputs: use request to get_json() object 
+    - For ouputs: use jsonify to convert dict to json object
+- Browser sends GET request and we will get below error
+![Browser GET request error](./../images/webservice_churn_prediction_error.png)
+- ERROR=<500>
+    - Object of type Bool is not json serializable
+    - Change numpy bool variable into python bool 
+        - var_bool -> bool(var_bool)
+    - change numpy float into python float 
+        - var_float -> float(var_float)
+- If Flask is run in `DEBUG` mode, it reloads the server after every change to app file 
+- ERROR=<200>
+    - Successful 
+    - User .json() to 
+## Development server vs Production server
+- `gunicorn` for production
+- Use below command to tell gunicorn to run churn webservice 
+- __main__ will not be executed when run from `gunicorn`. So, we are no more in debug mode
+```sh
+    gunicorn --bind 0.0.0.0:9696 05_predict-churn-webservice:app
+```
+![Production webserice churn prediction](./../images/prod_gunicorn_webservice_churn_prediction.png)
+- Our churn prediction webservice is running in a production environment locally. 
 
 
 # 5 Python virtual environment: Pipenv
