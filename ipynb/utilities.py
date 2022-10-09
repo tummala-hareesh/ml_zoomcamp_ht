@@ -10,6 +10,7 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import roc_auc_score
 from tqdm.auto import tqdm
+import pickle
 
 def split_datasets_602020(df, randstate, verbose=True):
     """Splits dataset into train-val-test sets @60-20-20 ratio
@@ -106,6 +107,18 @@ def kfold_biclf_logisticreg(df_train_full, target_feature, list_features, nsplit
 
 def get_roc_auc_score(y_val, y_pred):
     return roc_auc_score(y_val, y_pred)
+
+
+def save_model_pickle(dv, model, output_file_model):
+    with open(output_file_model, 'wb') as f_out:
+        pickle.dump((dv, model), f_out)
+        print(f' >>> ML model [Saved]: \n\t - File: {output_file_model}')
+        
+def load_model_pickle(filename_model):
+    with open(filename_model, 'rb') as f_in:
+        (dv, model) = pickle.load(f_in)
+        print(f' >>> ML model [Loaded]: \n\t - File: {filename_model}')
+    return dv, model
 
 
 # def prepare_X_train(df, drop_feature=''):

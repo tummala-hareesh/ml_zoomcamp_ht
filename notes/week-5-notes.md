@@ -14,7 +14,10 @@ These notes prepared during week-5 of ML Zoomcamp.
 - Churn-Prediction-Model -> Web Service -> Flask -> PipEnv -> docker -> cloud AWS EB
 
 # 2 Saving and loading the model
-- 
+- Save the model into pickle
+- Loading the model from pickle
+- Turning notebook into python script
+
 
 # 3 Web services: introduction to Flask
 
