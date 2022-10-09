@@ -2,6 +2,9 @@
 These notes prepared during week-5 of ML Zoomcamp. 
 
 # 1 Intro / Session overview
+- Deploying ML models
+- Previously trained churn prediction model, and deploy it to production 
+-  
 
 
 # 2 Saving and loading the model

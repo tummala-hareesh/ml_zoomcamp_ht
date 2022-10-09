@@ -5,8 +5,11 @@
 # Import modules
 import pandas as pd 
 import numpy as np 
-from sklearn.model_selection import train_test_split
-
+from sklearn.model_selection import train_test_split, KFold
+from sklearn.feature_extraction import DictVectorizer
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import roc_auc_score
+from tqdm.auto import tqdm
 
 def split_datasets_602020(df, randstate, verbose=True):
     """Splits dataset into train-val-test sets @60-20-20 ratio
@@ -48,6 +51,61 @@ def prepare_full_train(df_train, df_val, y_train, y_val):
     y_train_full  = np.concatenate([y_train, y_val])
     
     return df_train_full, y_train_full
+
+
+def train_biclf_logisticreg(df_train, y_train, list_features, C=0.1):
+    
+    dicts = df_train[list_features].to_dict(orient='records')
+    
+    dv = DictVectorizer(sparse=False)
+    X_train = dv.fit_transform(dicts)
+    
+    model = LogisticRegression(C=C, max_iter=1000)
+    model.fit(X_train, y_train)
+    
+    return dv, model
+
+
+def predict_clf(df, list_features, dv, model):
+    dicts = df[list_features].to_dict(orient='records')
+    
+    X = dv.transform(dicts)
+    
+    y_pred = model.predict_proba(X)[:,1]
+    
+    return y_pred
+
+
+def kfold_biclf_logisticreg(df_train_full, target_feature, list_features, nsplits, list_C):
+    # Kfold CV
+    kfold = KFold(n_splits=nsplits, random_state=1, shuffle=True)
+    
+    # Loop over C - regulariztion param in Log.Regression
+    for C in tqdm(list_C, total=len(list_C)):
+
+        scores = [] 
+
+        for train_idx, val_idx in kfold.split(df_train_full):
+
+            df_train = df_train_full.iloc[train_idx]
+            df_val = df_train_full.iloc[val_idx]
+
+            y_train = df_train.churn.values
+            y_val = df_val.churn.values
+
+            dv, model = train_biclf_logisticreg(df_train, y_train, list_features, C=C)
+            y_pred = predict_clf(df_val, list_features, dv, model)
+
+            auc = roc_auc_score(y_val, y_pred)
+            scores.append(auc)
+
+        print(f'C ={C} score_mean={np.mean(scores)*100:.3f}, score_std={np.std(scores)*100:.3f}')
+        
+    return scores
+
+
+def get_roc_auc_score(y_val, y_pred):
+    return roc_auc_score(y_val, y_pred)
 
 
 # def prepare_X_train(df, drop_feature=''):
