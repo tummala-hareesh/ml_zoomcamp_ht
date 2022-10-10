@@ -73,7 +73,31 @@ These notes prepared during week-5 of ML Zoomcamp.
 
 
 # 5 Python virtual environment: Pipenv
-
+- Managing virtual env - `pipenv`
+- 2 scenarios
+    - Churn Service - scikit-learn==0.24.2
+    - Lead Scoring Service - scikit-learn==1.0  
+- `pipenv` is widely accepted in python community 
+- Using `pipenv` (instead of `pip`) to install python libraries in a virtual env will create 2 files
+    - Pipfile
+    - Pipfile.lock
+        - Exact version of dependecies that we used 
+        - Checksum to fixes and pins 
+        - Use for `Reproducability`
+        - 
+- When someoneelse clones this repo, they just do a (to arrive at the same state as we are working now!)
+```sh
+pipenv install 
+```
+- Active the venv that is used 
+```sh
+pipenv shell
+```
+![Pipenv - which gunicon as per Env](./../images/pipenv_paths_explained.png)
+- Run the server in venv as below 
+```sh
+pipenv run gunicorn --bind 0.0.0.0:9696 05_predict-churn-webservice:app
+```
 
 # 6 Environment management: Docker
 
