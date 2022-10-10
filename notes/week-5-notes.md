@@ -159,7 +159,9 @@ eb create churn-serving-env
 ```
 
 # 8 Summary
-
+- Turned jupyter notebook into python script
+- Save and Load ML model for web service
+- Environment dependency management 
 
 
 # 9 Explore more
@@ -169,3 +171,4 @@ eb create churn-serving-env
 
 
 # 10 Homework
+- [Link to Notebook](./../ipynb/05_homework.ipynb)
