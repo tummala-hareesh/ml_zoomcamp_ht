@@ -1,5 +1,5 @@
 # Week-4
-These notes prepared during week-4 of ML Zoomcamp. 
+These notes were prepared during week-4 of ML Zoomcamp. 
 
 # 1 Evaluation metrics: session overview
 - Churn prediction - model to predict customers leaving the company - accuracy = 80%

@@ -1,5 +1,5 @@
 # Week-2
-These notes prepared during week-2 of ML Zoomcamp. 
+These notes were prepared during week-2 of ML Zoomcamp. 
 
 # 1 Car price prediction project
 - Develop a model to help user predict car price. 

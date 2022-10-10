@@ -1,5 +1,5 @@
 # Week-1 
-These notes prepared during week-1 of ML Zoomcamp. 
+These notes were prepared during week-1 of ML Zoomcamp. 
 
 # Table of Contents
 1. [Introduction to Machine Learning](#1-introduction-to-machine-learning)

@@ -1,5 +1,5 @@
 # Week-3
-These notes prepared during week-3 of ML Zoomcamp. 
+These notes were prepared during week-3 of ML Zoomcamp. 
 
 
 # 1 Churn prediction project

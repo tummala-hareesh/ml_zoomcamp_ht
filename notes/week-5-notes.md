@@ -1,5 +1,5 @@
 # Week-5
-These notes prepared during week-5 of ML Zoomcamp. 
+These notes were prepared during week-5 of ML Zoomcamp. 
 
 # 1 Intro / Session overview
 - Deploying ML models
