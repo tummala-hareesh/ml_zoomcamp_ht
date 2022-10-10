@@ -11,3 +11,4 @@ jupyterlab.yml
 bash/ec2_zoomcamp_pair.pem
 bash/ht-simplygreens_accessKeys.csv
 bash/ec2_public.sh
+ipynb/05_homework/.ipynb_checkpoints/*
