@@ -103,6 +103,15 @@ pipenv run gunicorn --bind 0.0.0.0:9696 05_predict-churn-webservice:app
     - Next lesson - Docker
 
 # 6 Environment management: Docker
+- Docker helps us isolate env at a more intricate level than pipenv.
+- More isolation 
+- 3 Services with docker 
+    - Churn Service - container1
+        - Ubunut18.04
+    - Lead Scoring - container2
+        - Ubuntu 20.04
+    - Email Service - container3
+        - Perl AmazonLinux
 - 
 
 
