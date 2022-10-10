@@ -10,6 +10,7 @@ flask = "*"
 gunicorn = "*"
 pandas = "*"
 tqdm = "*"
+requests = "*"
 
 [dev-packages]
 

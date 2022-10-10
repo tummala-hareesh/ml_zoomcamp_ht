@@ -4,12 +4,15 @@
 import requests
 import json 
 
-
 # URL for local
 #url = 'http://10.0.0.101:9696/predict'
 
 # URL for docker 
-url = 'http://172.17.0.2:9696/predict'
+#url = 'http://172.17.0.2:9696/predict'
+
+# EC2 host - ElasticBeanStalk
+host = "churn-serving-env.eba-axuxj7b3.us-east-1.elasticbeanstalk.com"
+url  = f"http://{host}/predict"
 
 
 # Read customer from json file 

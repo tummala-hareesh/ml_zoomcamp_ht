@@ -132,12 +132,40 @@ docker run -it --rm --entrypoint=bash --name=container_name image_name
 
 
 # 7 Deployment to the cloud: AWS Elastic Beanstalk (optional)
-
+- Depolying docker container to cloud 
+- Cloud provider: AWS - Beanstalk
+- Since my Free-Tier is exhausted, I will have to try alternatives. E.g: `localstack` i.e., used to develop and test local cloud stack
+- `Elastic BeanStalk`
+    - Host End-to-End Web Services on AWS 
+    - Automatically will increase no. of containers 
+    - Automatic Load Balancing 
+    - Scale up and Scale down
+- After creating a new AWS Free-Tier account
+    - Created command to ssh into ec2 
+    - Created command to scp files into ec2
+    - Update OS 
+    - Install pipenv and install awsebcli as dev  
+- initialize eb
+```sh
+eb init -p docker -r us-east-1 churn-serving
+```
+- Test of things work locally on ec2
+```sh
+eb local run --port 9696
+```
+- To create a prod applciation using `eb`, enter below and this will take time to spinup some back-end services
+```sh
+eb create churn-serving-env
+```
 
 # 8 Summary
 
 
+
 # 9 Explore more
+- API - Flask vs FastAPI
+- Experiment with other ways to manage env: virtual env, conda, poetry
+- Other Cloud providers: Heroku, GCP, Azure, Python Anywhere etc., 
 
 
 # 10 Homework
