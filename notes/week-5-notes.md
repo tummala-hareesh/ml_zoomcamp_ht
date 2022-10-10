@@ -98,8 +98,13 @@ pipenv shell
 ```sh
 pipenv run gunicorn --bind 0.0.0.0:9696 05_predict-churn-webservice:app
 ```
+- Python dependencies are managed using `pipenv`
+- What if we want system dependencies to be managed ? 
+    - Next lesson - Docker
 
 # 6 Environment management: Docker
+- 
+
 
 
 # 7 Deployment to the cloud: AWS Elastic Beanstalk (optional)
