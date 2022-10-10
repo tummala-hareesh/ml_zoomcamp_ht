@@ -17,8 +17,7 @@ Going forward, I'm going to update this README.md on a weekly basis with an **Ov
 - [Files for this cohort](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp/cohorts/2022)
 - [Syllabus and deadlines](https://docs.google.com/spreadsheets/d/e/2PACX-1vQiEznNaTrblegQtBwQ-zsoJY6Vh_XL7_rilGYugRuCFhBQfnJR7D-QArGlilAiF9qrkY5ED2n-9ibD/pubhtml)
 
-### Organization of this repo
-Organization of this repo is as below:
+## Organization of this repo
 - [data](./data/) folder is collection of datasets used in different weeks during this zoomcamp
 - [images](./images/) folder is simply a collection of snapshots created during preparing of weekly notes.
 - [ipynb](./ipynb/) folder contains all the notebooks created in different weeks of learning.

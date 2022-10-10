@@ -112,7 +112,22 @@ pipenv run gunicorn --bind 0.0.0.0:9696 05_predict-churn-webservice:app
         - Ubuntu 20.04
     - Email Service - container3
         - Perl AmazonLinux
-- 
+- Easy to deploy containers on the cloud
+- Few commands to run on linux:
+    - apt-get update && apt-get install wget
+## Build a simple docker file 
+```sh
+docker build -t image_name . 
+```
+## Run the docker image
+```sh
+docker run -it --rm --entrypoint=bash --name=container_name image_name
+```
+- Inside a docker, we don't need to create a venv by running `pipenv install` 
+- Instead, `pipenv install --system --deploy --ignore-pipfile` will install libraries in core path itself inside the container 
+- Need to EXPOSE a port to talk to server in the container 
+    - EXPOSE 9696
+    - Use -p 9696:9696 during docker run to map ports
 
 
 

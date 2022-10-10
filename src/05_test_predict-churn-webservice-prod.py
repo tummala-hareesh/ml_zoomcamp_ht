@@ -5,8 +5,12 @@ import requests
 import json 
 
 
-# URL 
-url = 'http://10.0.0.101:9696/predict'
+# URL for local
+#url = 'http://10.0.0.101:9696/predict'
+
+# URL for docker 
+url = 'http://172.17.0.2:9696/predict'
+
 
 # Read customer from json file 
 with open('test-customer.json', 'r') as fin:
