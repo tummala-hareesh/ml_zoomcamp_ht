@@ -9,7 +9,7 @@ print(" >>> Churn Prediction Model - Training")
 
 # ------------------------------------------------------------------
 # Load data
-df = pd.read_csv('03_data-Telco-Customer-Churn.csv')
+df = pd.read_csv('../data/03_data_customer_churn.csv')
 print("     - Load data - <OK>")
 
 # Standardize column names 
@@ -82,7 +82,7 @@ print(f"     - Testing auc={round(auc*100,4)}")
 
 # ------------------------------------------------------------------
 # filename to save the model
-filename_model = f'model_C={C}.bin'
+filename_model = f'../models/model_C={C}.bin'
 filename_model
 
 # Save the model

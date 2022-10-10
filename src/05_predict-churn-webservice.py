@@ -7,7 +7,7 @@ from flask import jsonify
 
 # ------------------------------------------------------------------
 # file name of model to load
-filename_model='model_C=1.0.bin'
+filename_model='../models/model_C=1.0.bin'
 
 # ------------------------------------------------------------------
 # Load model

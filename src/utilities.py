@@ -109,7 +109,7 @@ def get_roc_auc_score(y_val, y_pred):
     return roc_auc_score(y_val, y_pred)
 
 
-def save_model_pickle(dv, model, output_file_model):
+def save_model_pickle(dv, model, output_file_model, verbose=True):
     with open(output_file_model, 'wb') as f_out:
         pickle.dump((dv, model), f_out)
         if (verbose): print(f' >>> ML model [Saved]: \n\t - File: {output_file_model}')
