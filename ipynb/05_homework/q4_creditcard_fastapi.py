@@ -1,6 +1,6 @@
 import pickle
-from flask import Flask
-from flask import request, jsonify
+from fastapi import FastAPI
+from pydantic import BaseModel
 # ------------------------------------------------------------------
 # Utility functions
 def load_pickle(filename, verbose=False):
@@ -17,29 +17,32 @@ PATH_to_dv='dv.bin'
 dv = load_pickle(PATH_to_dv)
 model = load_pickle(PATH_to_model)
 
-app = Flask('creditcard-Flask')
+app = FastAPI()
+
+# ------------------------------------------------------------------
+# pydantic models
+class Customer(BaseModel):
+    reports: int
+    share: float
+    expenditure: float
+    owner: str
 
 # ------------------------------------------------------------------
 # Predict() function
-@app.route('/predict', methods=['POST'])
-def predict():
-    customer = request.get_json()
+@app.post('/predict')
+async def predict(customer: Customer):
+    test_customer = {"reports": customer.reports, 
+                    "share": customer.share, 
+                    "expenditure": customer.expenditure, 
+                    "owner": customer.owner}
 
     # ML model prediction - Credit Card Approval
-    X = dv.transform([customer])
-    y_pred = model.predict_proba(X)[0,1]
-    approval_cc = y_pred >= 0.5
+    X = dv.transform([test_customer])
+    prediction = model.predict_proba(X)[0,1]
+    approval = prediction >= 0.5
     
-    result = {
-        'Probability': float(y_pred),
-        'Approval': bool(approval_cc)
+    response = {
+        'Probability': float(prediction),
+        'Approval': bool(approval)
     }
-    
-    return jsonify(result)
-      
-
-if __name__ =='__main__':
-    app.run(debug=True, host='0.0.0.0', port=9696)
-
-
-
+    return response

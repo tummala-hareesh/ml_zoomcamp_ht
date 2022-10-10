@@ -11,8 +11,11 @@ gunicorn = "*"
 pandas = "*"
 tqdm = "*"
 requests = "*"
+uvicorn = {extras = ["standard"], version = "*"}
 
 [dev-packages]
+fastapi = {extras = ["all"], version = "*"}
+uvicorn = {extras = ["standard"], version = "*"}
 
 [requires]
 python_version = "3.9"
