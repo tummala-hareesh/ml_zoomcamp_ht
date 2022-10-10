@@ -9,5 +9,5 @@ src/__pycache__/
 .env 
 jupyterlab.yml
 bash/ec2_zoomcamp_pair.pem
-bash/ssh_ec2.sh
 bash/ht-simplygreens_accessKeys.csv
+bash/ec2_public.sh
