@@ -61,8 +61,8 @@ Going forward, I'm going to update this README.md on a weekly basis with an **Ov
 - **Media:** [Week-5 Post](https://www.linkedin.com/posts/tummala-hareesh_github-tummala-hareeshmlzoomcampht-activity-6985268866981523456-ng9c?utm_source=share&utm_medium=member_desktop)
 
 ## Week-6
-- **Topic:** 
-- **Notes:** [Week-6 Notes]()
+- **Topic:** Decision Trees and Ensemble Learning
+- **Notes:** [Week-6 Notes](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-6-notes.md)
 - **Outcomes:** 
 - **Media:** [Week-6 Post]()
 
