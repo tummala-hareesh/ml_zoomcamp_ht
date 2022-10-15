@@ -2,7 +2,17 @@
 These notes were prepared during week-6 of ML Zoomcamp. 
 
 # 1 Credit risk scoring project
-
+- Make decisions on a applicant based on his/her credit score. 
+- g(xi) -> prob of default
+- Brief about this week
+    - Look at dataset
+    - data cleaning and prep
+    - Decision tree
+    - DT algos
+    - DT parameter tuning
+    - Ensemble and Random forest
+    - Gradient Boosting and XGBoost
+    - Select best of 3 models 
 
 # 2 Data cleaning and preparation
 
