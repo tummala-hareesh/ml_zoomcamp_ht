@@ -25,7 +25,29 @@ These notes were prepared during week-6 of ML Zoomcamp.
 - Prepare dataset for modeling
 
 # 3 Decision trees
+## How does a decision tree look like? 
+- DT is a data structure. 
+    - Based on the condition on a `node` - goes left or right branch 
+    - Same follows to child nodes
+## Training a DT?
+- Basically, a bunch of if-else statements used for determining target variable
+- Learning rules from the data itself instead of hard-coding if-else logics 
 
+- **Steps:**
+    - Turn training `DF` into `list_dict`
+    - `list_dict` into `feature matrix`
+    - Train DT 
+    - AUC for val and train differ a lot
+
+- Overfitting
+    - When model memorizes the data; Fails to generalize
+    - Depth is `unresitricted`
+
+- Controlling the size of the tree
+    - Depth = 3; Learn rules that are less specific
+    - Depth = 0; `Decision Stump` - not really a tree; only 1 condition
+
+- Look at rules that DT learned; use export_text from sklearn.tree
 
 # 4 Decision tree learning algorithm
 
