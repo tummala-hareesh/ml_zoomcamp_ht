@@ -50,6 +50,42 @@ These notes were prepared during week-6 of ML Zoomcamp.
 - Look at rules that DT learned; use export_text from sklearn.tree
 
 # 4 Decision tree learning algorithm
+- Previous lesson, training decision trees with sklearn
+- Allowing DT to grow indefinitely will cause `overfitting` and model doesn't `generalize`
+- While seeting the max_depth parameter will show better results. 
+
+## Finding the best split for DT 
+- Pseudo code for best split algo for DT - `Misclassification`
+```
+    for F in features:
+        find all thresholds for F
+            for T in thresholds:
+                split dataset using "F>T' condition
+                compute the impurity of this split 
+    
+    Select the condition with lowest impurity
+```
+- Other Classification criteria
+    - `Gini`
+    - `Entropy`
+
+## How do we know when to stop DT split? 
+- If group is already `pure`, don't split
+- Tree reached the depth limit  - max_depth
+- If min size of group is too small to split
+
+## Review of DT learning Algo 
+- Find the best split as 
+- Stop if max_depth is reached
+- If left is sufficiently large and left not pure 
+    - Repeat on left 
+- If right is sufficiently large and right not pure 
+    - Repeat on right 
+
+# More reading on DTs sklearn
+- https://scikit-learn.org/stable/modules/tree.html
+- https://mlu-explain.github.io/decision-tree/
+- 
 
 
 # 5 Decision trees parameter tuning
