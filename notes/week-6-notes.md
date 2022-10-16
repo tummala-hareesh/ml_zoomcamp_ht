@@ -85,11 +85,53 @@ These notes were prepared during week-6 of ML Zoomcamp.
 # More reading on DTs sklearn
 - https://scikit-learn.org/stable/modules/tree.html
 - https://mlu-explain.github.io/decision-tree/
-- 
+- DTs - `non-parametric supervised learning method`
+- tree = `piece-wise constant approximation`
+- deeper tree = `more complex the decision rules and the fitter the model`
+## Advatnages of DTs
+- Simpler to understand and to interpret
+- Trees can be visualized
+- Little data preperation; Other techniques require data normalization, dummy varibles need to be created and blank values to be removed etc.,
+- Able to handle both numerical and categorical data; scikit-learn doesn't support categorical for now
+- Able to handle multi-output problems
+- white box model - observability in the model - explanability 
+- Possible to validate the model using statistical tests - account for reliability of the model 
+- PErforms weel even if tis assumptions are voilated
+
+## Disadvantages of DTs
+- Over-complex tree - overfitting
+- Unstable because small variations in the data - different tree
+- Piece-wise approximation - not good at extrapolation
+- Local optimal vs global optimal problem
+- DTs create bias if some classes dominate - need to balance the dataset prior to fitting the DT
+
+## Export trees 
+- Graphviz 
+- Text format
+
+## Complexity 
+- Balanced Binary tree = O(n_samples n_features log(n_samples))
+- Query time  = O(log(n_samples)
+
+## Classification criteria
+- `Gini` =  SUM_k(p_mk(1-p_mk))
+- `Entropy` or `Log Loss`= -SUM_k(p_mk log(p_mk))
+    - Shannon entropy = minimizing log loss
+    - also called cross-entropy and multinominal deviance 
+- `MSE or L2 error`, Poisson deviation `MAE or L1 error` 
+
+- `Minimal cost-complexity Pruning` - prune a tree to avoid over-fitting - provides parameters such as `min_smaples_leaf` and `max_depth`  and `ccp_alpha` cost complextity alpha parameter to control the size of the tree.
+    - > `ccp_alpha` increase the no. of nodes pruned
 
 
 # 5 Decision trees parameter tuning
-
+- Important Parameters to control DT
+    - `max_depth`
+    - `min_samples_leaf`
+- Tune `max_depth` parameter and then tune other parameter
+- pivot DF for heatmap creation
+- Heatmap of auc values for different combinations of max_depth and min_samples_leaf
+- Finalize a DT with max_depth and min_samples_leaf
 
 # 6 Ensemble learning and random forest
 
