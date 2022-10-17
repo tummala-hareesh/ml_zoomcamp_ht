@@ -182,17 +182,56 @@ def parse_xgb_ouput(output):
 
     return df_results
 ```
+- 82% AUC on validation dataset; decrease after 25 trees
 
 # 8 XGBoost parameter tuning
-
+- Tuning parameters:  
+    - `eta` = Learning Rate = Size of Step
+    - `max_depth` = Depth of tree
+    - `min_child_weight` = How much weight 2nd model has when correcting 1st model = same as `min_samples_leaf` in RF
+- Other useful parameters
+    - `subsample`
+    - `colsample_bytree`
+    - `lambda` and `alpha`
 
 # 9 Selecting the best model
+- Trained 3 DT based models
+    - DT
+    - RF
+    - XGBoost
+- Often XGBoost turns out to be best model for tabular data 
+- Complex and difficult to tune 
+- For RF, 2 important features only 
 
 
 # 10 Summary
+- DTs = if-else conditions; learn from data
+- Finding best split of DT 
+    - Select least impure split
+    - Algo can overfit 
+    - Control on max_depth and size of group is needed 
+- RF = way of combining multiple DTs 
+    - Have diverse set of models to make good predictions
+- Gradient Boosting 
+    - Sequentially stiched DTs
+    - Each model tries to fix errors from the previous model 
+    - XGBoost is an implementation of gradient boosting 
 
 
 # 11 Explore more
+- EDA or feature engineering for more insights 
+- For RF, check more parameters to tune, `max_features` and `bootstrap`
+- `ExtraTreesClassifer` try !
+- XGBoost can deal iwth NAs - no `fillna` needed
+- Experiment with other XGBoost parameters
+    - `subsample`
+    - `colsample_bytree`
+- DTs can be used to find most useful features
+- Trees to solve regression problems 
+    - check `DecisionTreeRegressor`
+    - `RandomForestRegressor`
+    - `objective=reg:squarederror` parameter for XGBoost
 
 
 # 12 Homework
+- [Link to week-6 homework](../ipynb/06_homework.ipynb)
