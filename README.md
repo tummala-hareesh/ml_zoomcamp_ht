@@ -65,7 +65,7 @@ Going forward, I'm going to update this README.md on a weekly basis with an **Ov
 - **Topic:** Decision Trees and Ensemble Learning
 - **Notes:** [Week-6 Notes](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-6-notes.md)
 - **Outcomes:** Decision Trees, Importannt parameters to control overfitting of DTs, Random Forest as combination of multiple DTs, Diversity of DTs for RF is important, Gradient Boosting is sequentially stiching DTs, Each DT model fixes errors from precious model, XGBoost - an efficient implementation of gradient boosting 
-- **Media:** [Week-6 Post](https://www.linkedin.com/posts/tummala-hareesh_mlzoomcamp-activity-6987134240983322624-1p1m?utm_source=share&utm_medium=member_desktop, https://www.linkedin.com/posts/tummala-hareesh_interpretability-explainability-activity-6987402960787951616-jmnU?utm_source=share&utm_medium=member_desktop, https://www.linkedin.com/posts/tummala-hareesh_github-tummala-hareeshmlzoomcampht-activity-6987816512023642112-O1Gz?utm_source=share&utm_medium=member_desktop, )
+- **Media:** [Week-6 Post](https://www.linkedin.com/posts/tummala-hareesh_mlzoomcamp-activity-6987134240983322624-1p1m?utm_source=share&utm_medium=member_desktop, https://www.linkedin.com/posts/tummala-hareesh_interpretability-explainability-activity-6987402960787951616-jmnU?utm_source=share&utm_medium=member_desktop, https://www.linkedin.com/posts/tummala-hareesh_github-tummala-hareeshmlzoomcampht-activity-6987816512023642112-O1Gz?utm_source=share&utm_medium=member_desktop, https://www.linkedin.com/posts/tummala-hareesh_dt-vs-rf-vs-xgb-activity-6987856137920401408-qPos?utm_source=share&utm_medium=member_desktop)
 
 
 ## 🗓️ Week-7
