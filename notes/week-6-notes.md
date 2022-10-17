@@ -134,7 +134,11 @@ These notes were prepared during week-6 of ML Zoomcamp.
 - Finalize a DT with max_depth and min_samples_leaf
 
 # 6 Ensemble learning and random forest
-
+- Random forest
+    - Average choice of multiple Experts to give a loan or not
+    - Similarly, Average probability of multiple DTs is RF
+    - Randomness comes from the fact that each DT is different - each model get a random subset of features 
+- mutiple DTs into one
 
 # 7 Gradient boosting and XGBoost
 
