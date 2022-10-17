@@ -138,10 +138,50 @@ These notes were prepared during week-6 of ML Zoomcamp.
     - Average choice of multiple Experts to give a loan or not
     - Similarly, Average probability of multiple DTs is RF
     - Randomness comes from the fact that each DT is different - each model get a random subset of features 
-- mutiple DTs into one
+- mutiple independent DTs -> Combine into one taking average
+- Traing models is a `Parallel` process
 
 # 7 Gradient boosting and XGBoost
+- Different way of comibing multiple DTs = `Boosting`
+- Train multiple DTs; Each model corrects mistakes of next model; 
+- Training is a `Sequential` process
+- IN Boosting, 
+    - Data -> Model1 -> Pred1
+    - Errors of Model1 -> Model2 -> Pred3
+    - Errors of Model2 -> Model3 -> Pred4
+    - ....
+    - Final Prediction 
+- Library = `XGBOOST`
+```py
+pip install xgboost
 
+import xgboost as xgb
+```
+- Convert data into special datastructure called `DMatrix`.
+- xgb_params for xgb.train
+- xgb evals can't be taken into as an ouput; use `%capture output` instead
+- print(output.stdout) and parse the data
+```py
+def parse_xgb_ouput(output):
+    
+    results = []
+
+    for line in output.stdout.strip().split('\n'):
+
+        # split tabs
+        num_iter, train_auc, val_auc = line.split('\t')
+
+        # Format 3 values
+        num_iter = int(num_iter.strip('[]'))
+        train_auc = float(train_auc.strip('train-auc:'))
+        val_auc = float(val_auc.strip('val-auc:'))
+
+        results.append((num_iter, train_auc, val_auc))
+
+    df_results = pd.DataFrame(results, columns=['n_iter','train_auc', 'val_auc'])
+
+    return df_results
+```
 
 # 8 XGBoost parameter tuning
 
