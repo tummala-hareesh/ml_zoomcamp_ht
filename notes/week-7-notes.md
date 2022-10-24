@@ -39,6 +39,18 @@ These notes were prepared during week-7 of ML Zoomcamp.
 
 
 # 2 Building Your Prediction Service with BentoML
+- In module 5, pickling a model and loading it inside a Flask app.  
+- `Problem`: with this approach
+    - Depending on ML framework, specific things to save the model properly. 
+    - Version level framework dependecies 
+- `BentoML` standardizes these depending on ML framework and versioning option.
+## Steps for the Service - BentoML
+- Create `model_ref` using **tag** - all associated metadata for the model
+- Create `model_runner` - BentoML's abstraction for the model itself - Scale the model seperately with the abstraction - Prediction usage
+- Create `Service` 
+- Create service endpoint called - `classify`
+
+- Runner has same signature - But, use `predict.run()` instead of `predict()`
 - 
 
 

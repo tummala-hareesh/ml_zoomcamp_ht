@@ -69,7 +69,9 @@ Going forward, I'm going to update this README.md on a weekly basis with an **Ov
 
 
 ## 🗓️ Week-7
-- **Topic:** 
-- **Notes:** [Week-7 Notes]()
+- **Topic:** BentoML for Production
+- **Notes:** [Week-7 Notes](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-7-notes.md)
 - **Outcomes:** 
 - **Media:** [Week-7 Post]()
+
+
