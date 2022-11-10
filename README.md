@@ -11,6 +11,7 @@ This repo has been created while attending **[ML ZoomCamp](https://github.com/al
 7. [Week-5 learning](#week-5)
 8. [Week-6 learning](#week-6)
 9. [Week-7 learning](#week-7)
+10. [Week-midterm-project](#week-midterm)
 
 
 ## 📖 Targeted Open Learning
@@ -72,6 +73,10 @@ Going forward, I'm going to update this README.md on a weekly basis with an **Ov
 - **Topic:** BentoML for Production
 - **Notes:** [Week-7 Notes](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-7-notes.md)
 - **Outcomes:** 
-- **Media:** [Week-7 Post]()
+- **Media:** [Week-7 Post](https://www.linkedin.com/feed/update/urn:li:activity:6990395743102521344/)
 
-
+## 🗓️ Week-midterm
+- **Topic:** Midterm Project
+- **Link to Project folder:** [Week-midterm-project](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/ipynb/midterm_porject)
+- **Outcomes:** End-End ML project 
+- **Media:** [Week-midterm Post]()
