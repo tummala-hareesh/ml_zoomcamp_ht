@@ -77,6 +77,6 @@ Going forward, I'm going to update this README.md on a weekly basis with an **Ov
 
 ## 🗓️ Week-midterm
 - **Topic:** Midterm Project
-- **Link to Project folder:** [Week-midterm-project](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/ipynb/midterm_porject)
+- **Link to Project folder:** [Week-midterm-project](https://github.com/tummala-hareesh/ml_zoomcamp_ht/tree/main/ipynb/midterm_project)
 - **Outcomes:** End-End ML project 
 - **Media:** [Week-midterm Post]()

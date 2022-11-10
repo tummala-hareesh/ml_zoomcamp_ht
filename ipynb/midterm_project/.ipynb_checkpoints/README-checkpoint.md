@@ -14,6 +14,29 @@ wget https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/police-annual-stati
 ```
 - Use `!` if you are running the above command in a notebook.
 
-# Instructions on how to run the project
+# Create working env and install dependencies
 
+- To create a new environment and install dependencies
+```sh
+conda create -n mlzoomcamp-mtp python=3.9
+source activate mlzoomcamp-mtp
+conda install -c conda-forge scikit-learn pandas tqdm
+```
 
+- To activate the environment
+```sh
+source activate mlzoomcamp-mtp
+```
+
+- To deactivate the environment in which you have already activated 
+```sh
+conda deactivate
+```
+
+# Train the model
+
+# Run the model
+To run the model on test data, just run below (Input is already specified inside the predict.py file) 
+```py
+python predict.py
+```
