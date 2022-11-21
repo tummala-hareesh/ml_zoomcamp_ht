@@ -72,7 +72,7 @@ Going forward, I'm going to update this README.md on a weekly basis with an **Ov
 ## 🗓️ Week-7
 - **Topic:** BentoML for Production
 - **Notes:** [Week-7 Notes](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-7-notes.md)
-- **Outcomes:** 
+- **Outcomes:** Using BentoML for putting ML models into production
 - **Media:** [Week-7 Post](https://www.linkedin.com/feed/update/urn:li:activity:6990395743102521344/)
 
 ## 🗓️ Week-midterm
@@ -80,3 +80,9 @@ Going forward, I'm going to update this README.md on a weekly basis with an **Ov
 - **Link to Project folder:** [Week-midterm-project](https://github.com/tummala-hareesh/ml_zoomcamp_ht/tree/main/ipynb/midterm_project)
 - **Outcomes:** End-End ML project 
 - **Media:** [Week-midterm Post]()
+
+## 🗓️ Week-8
+- **Topic:** Neural Networks and Deep Learning
+- **Notes:** [Week-8 Notes](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-8-notes.md)
+- **Outcomes:**   
+- **Media:** [Week-8 Post]()
