@@ -12,7 +12,7 @@ This repo has been created while attending **[ML ZoomCamp](https://github.com/al
 8. [Week-6 learning](#week-6)
 9. [Week-7 learning](#week-7)
 10. [Week-midterm-project](#week-midterm)
-
+11. [Week-8 learning](#week-8)
 
 ## 📖 Targeted Open Learning
 Going forward, I'm going to update this README.md on a weekly basis with an **Overview** for the week, **Notes** prepared during the week, **Outcomes** from the learning process, and, maybe, social **Media** posts that I write about the weekly outcome. Good Luck and Happy Learning! 
@@ -84,5 +84,5 @@ Going forward, I'm going to update this README.md on a weekly basis with an **Ov
 ## 🗓️ Week-8
 - **Topic:** Neural Networks and Deep Learning
 - **Notes:** [Week-8 Notes](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-8-notes.md)
-- **Outcomes:**   
-- **Media:** [Week-8 Post]()
+- **Outcomes:** Pre-Trained models, NN layers, learning rate, dropout rate, checkpoints etc.  
+- **Media:** [Week-8 Post-1](https://www.linkedin.com/posts/tummala-hareesh_saturn-cloud-your-data-science-cloud-environment-activity-7000541234222051328-LOEB?utm_source=share&utm_medium=member_desktop), [Week-8 Post-2](https://www.linkedin.com/posts/tummala-hareesh_github-tummala-hareeshmlzoomcampht-activity-7000555590880038912-76b9?utm_source=share&utm_medium=member_desktop)
