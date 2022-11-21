@@ -31,10 +31,30 @@ These notes were prepared during week-8 of ML Zoomcamp. The topic for this week 
 
 
 # 3 Pre-trained convolutional neural networks
+- Imagenet is a huge dataset with ~1000 object classes 
+- keras has pre-trained models for us to use
+- Different models with different architectures
+    - Xception model 
+    - preprocesing input from xception
+    - decode_prediction from xception 
 
 
 # 4 Convolutional neural networks
-
+- Type of NN used for Images 
+- Convolutional layer 
+- Xception model is a CNN
+    - multiple layers
+    - Convoluation layers   
+        - Filters 
+        - simple images 
+        - aceoss the image - similarity of pixel with simple image
+        - Outputs: Set of Feature Maps
+        - 2nd CNN will create feature maps using feature map1
+        - Finally, extract vector representation 
+    - Dense layers 
+        - Vector representation is passed to Dense layer
+        - We get predictions from dense layer
+- `Pooling` for making NN smaller with less no. of features. 
 
 # 5 Transfer learning
 
