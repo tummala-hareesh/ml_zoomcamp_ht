@@ -20,9 +20,24 @@ These notes were prepared during week-8 of ML Zoomcamp. The topic for this week 
 - Monthly free-tier is available
 
 # 3 TensorFlow Lite
-
+- Lighter version of TensorFlow
+- TensorFlow ~ 1.2GB
+- TensorFlowLite ~ 50MB zip file
+    - Focuses on only `Inference`
+    - Can't be used for `Training` 
+- Download a pre-trained model
+- Use TensorFlow lite to make predictions 
+    - Need a manual over-ride for now
+- `keras image helper` will do all helping for converting into TensorFlow Lite
+## How to not depend on tensorflow 
+- `Install tensforlow run time`
+- 
+```py
+python3 -m pip install tflite-runtime
+```
 
 # 4 Preparing the code for Lambda
+
 
 
 # 5 Preparing a Docker image
