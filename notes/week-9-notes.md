@@ -10,8 +10,14 @@ These notes were prepared during week-8 of ML Zoomcamp. The topic for this week 
     - Response classfied element
 
 # 2 AWS Lambda
-- 
-
+- Run Code without thinking aboutu Servers
+- Create a lambda function usign Management console
+- Create a Lambda "PONG" example
+    - `event` as a parameter to lambda function 
+    - `context` is none for now
+- Pay-per-Request 
+- No infrastructure is needed. 
+- Monthly free-tier is available
 
 # 3 TensorFlow Lite
 
