@@ -37,6 +37,12 @@ python3 -m pip install tflite-runtime
 ```
 
 # 4 Preparing the code for Lambda
+- convert ipynb into python script using below:
+```sh
+jupyter nbconvert --to script 09_serverless_dl.ipynb
+```
+- Clean the python function 
+- and make sure the `lambda_handler` function is created. 
 
 
 
