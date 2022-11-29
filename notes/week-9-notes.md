@@ -45,9 +45,11 @@ jupyter nbconvert --to script 09_serverless_dl.ipynb
 - and make sure the `lambda_handler` function is created. 
 
 
-
 # 5 Preparing a Docker image
-
+- Many dependices should be handled
+- Ex: TFlite for ubunut vs aws python build
+- Serializable ararys
+- docker image working with tflite
 
 # 6 Creating the lambda function
 
