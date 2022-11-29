@@ -91,8 +91,8 @@ Going forward, I'm going to update this README.md on a weekly basis with an **Ov
 ## 🗓️ Week-9
 - **Topic:** Serverless Deep Learning
 - **Notes:** [Week-9 Notes](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-9-notes.md)
-- **Outcomes:**  
-- **Media:** [Week-9 Post-1](https://www.linkedin.com/posts/tummala-hareesh_saturn-cloud-your-data-science-cloud-environment-activity-7000541234222051328-LOEB?utm_source=share&utm_medium=member_desktop))
+- **Outcomes:** AWS Lambda, TensorFlow lite, Keras to TFLite, docker, API Gateway  
+- **Media:** [Week-9 Post-1](https://www.linkedin.com/posts/tummala-hareesh_github-tummala-hareeshmlzoomcampht-activity-7003165207409635328-xftq?utm_source=share&utm_medium=member_desktop)
 
 
 
