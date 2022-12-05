@@ -52,6 +52,9 @@ jupyter nbconvert --to script 09_serverless_dl.ipynb
 - docker image working with tflite
 
 # 6 Creating the lambda function
+- Deploy the created docker container using lambda 
+- Instead of function, use container 
+- Upload docker image to ECR 
 
 
 # 7 API Gateway: exposing the lambda function
