@@ -1,0 +1,10 @@
+scikit-learn
+pandas
+seaborn
+hyperopt
+xgboost
+SQLAlchemy
+setuptools
+optuna
+prefect
+pipenv

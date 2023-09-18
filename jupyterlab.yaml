@@ -1,0 +1,13 @@
+version: '3'
+services:
+  datascience-notebook:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ml_zoomcamp
+    environment:
+      - JUPYTER_TOKEN=ht
+    volumes:
+      - ${LOCAL_WORKING_DIR}:/home/jovyan/work
+    ports:
+      - ${PORT}:8888
