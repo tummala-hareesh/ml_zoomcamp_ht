@@ -34,10 +34,10 @@ Going forward, I'm going to update this README.md on a weekly basis with an **Ov
 - **Topic**: Introduction to Machine Learning 
 - **Notes**: [Week-1 Notes](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-1-notes.md)
 - **Outcomes**: ML termilogy, rule vs ML, supervisedML, CRISP-DM, Model selection steps, Review of linear algebra and env setup
-- **Media**: [Week-1 Post](https://www.linkedin.com/posts/tummala-hareesh_github-tummala-hareeshmlzoomcampht-activity-6975109893066285057-GI0V?utm_source=share&utm_medium=member_desktop)
+- **Media**: [Week-1 Post](https://www.linkedin.com/feed/update/urn:li:share:7109648245580070912/)
 
 
-## 🗓️ Week-2
+<!-- ## 🗓️ Week-2
 - **Topic:** Machine Learning for Regression  
 - **Notes:** [Week-2 Notes](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-2-notes.md)
 - **Outcomes:** Linear Regression, Car Price Prediction model, House Price Prediction model, Regularization, Shuffle data
@@ -92,7 +92,7 @@ Going forward, I'm going to update this README.md on a weekly basis with an **Ov
 - **Topic:** Serverless Deep Learning
 - **Notes:** [Week-9 Notes](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-9-notes.md)
 - **Outcomes:** AWS Lambda, TensorFlow lite, Keras to TFLite, docker, API Gateway  
-- **Media:** [Week-9 Post-1](https://www.linkedin.com/posts/tummala-hareesh_github-tummala-hareeshmlzoomcampht-activity-7003165207409635328-xftq?utm_source=share&utm_medium=member_desktop)
+- **Media:** [Week-9 Post-1](https://www.linkedin.com/posts/tummala-hareesh_github-tummala-hareeshmlzoomcampht-activity-7003165207409635328-xftq?utm_source=share&utm_medium=member_desktop) -->
 
 
 
